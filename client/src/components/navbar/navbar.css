@@ -1,0 +1,380 @@
+
+#christmasThemeNavbarContainer {
+    background-color: #1F1F1Fff;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("../../Assets/christmas.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lightThemeNavbarContainer {
+    background-color: #FFFFFFff;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbarContainer {
+    background-color: #1F1F1Fff;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-image: url("../../Assets/christmas.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.navButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navButtonsContainer button {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.lightThemeNavSignInButton {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.lightThemeNavSignInButton:hover {
+    color: #52C71Bff;
+}
+
+.navSignInButton {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.navSignInButton:hover {
+    color: #52C71Bff;
+}
+
+.navSignUpButton {
+    background-color: #52C71Bff;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+}
+
+.navSignUpButton:hover {
+    box-shadow: 0 0 10px #52C71Bff;
+}
+
+.hamburgerIcon {
+    cursor: pointer;
+}
+
+.navWalletButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to right, #6427D8ff, rgb(129, 72, 235));
+    color: white;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.navProfile {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.profileImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.lightThemeUsername {
+    color: black;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.username {
+    font-size: 1rem;
+    color: white;
+    margin-left: 5px;
+
+    /* lol */
+    /* color: rgb(0, 0, 0); */
+    font-weight: bolder;
+}
+
+.lightThemeProfileDropDown {
+    color: black;
+    border-radius: 20px;
+    display: none;
+    z-index: 1;
+    background-color: #FFFFFFff;
+    min-width: 30vw;
+    padding: 20px;
+    cursor: default;
+    box-shadow: 0 0 10px black;
+}
+
+.profileDropDown {
+    color: white;
+    border-radius: 20px;
+    display: none;
+    z-index: 1;
+    background-color: #17181Bff;
+    min-width: 30vw;
+    padding: 20px;
+    cursor: default;
+}
+
+.lightThemeProfileDropDown .logoutContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.profileDropDown .logoutContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.lightThemeProfileDropDown .sideProfileImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profileDropDown .sideProfileImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.dropdownLink {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.lightThemeProfileDropDown .linksContainer {
+    margin-top: 20px;;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background-color: #F5F6FAff;
+    align-items: center;
+    justify-self: center;
+    gap: 20px;
+    z-index: 1;
+}
+
+.profileDropDown .linksContainer {
+    margin-top: 20px;;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background-color: #1E2024ff;
+    align-items: center;
+    justify-self: center;
+    gap: 20px;
+    z-index: 1;
+}
+
+.lightThemeProfileDropDown .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileDropDown .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lightThemeProfileDropDown .header .userInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.profileDropDown .header .userInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.lightThemeProfileDropDown .header .globalSettings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.profileDropDown .header .globalSettings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.navProfile:hover .lightThemeProfileDropDown {
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 10%
+}
+
+.navProfile:hover .profileDropDown {
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 10%
+}
+
+.navbarContainer .themeButton {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px
+}
+
+.lightThemeNavbarContainer .themeButton {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #52C71Bff;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #52C71Bff;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 700px) {
+    .profileDropDown {
+        min-width: 90vw;
+    }
+
+    .navbarContainer .themeButton {
+        display: none;
+    }
+    
+    .lightThemeNavbarContainer .themeButton {
+        display: none;
+    }
+
+    .navSignUpButton {
+        padding: 0;
+        width: 70px;
+        padding: 5px;
+    }
+
+    .navButtonsContainer button {
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 0.9rem;
+        font-style: italic;
+    }
+
+}

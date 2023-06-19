@@ -1,0 +1,524 @@
+p {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+input:focus {
+    outline: none
+}
+
+.walletPopupWrapper {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 100;
+}
+
+.lightThemeWalletPopupInner {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 13%;
+    left: 45%;
+    margin: -50px 0 0 -100px;
+    /* background-color: rgb(237, 235, 235); */
+    width: 35%;
+    min-height: 85vh;
+    max-height: 85vh;
+    border-top-right-radius: 20%;
+    box-shadow: 0 -5px 20px -5px black;
+    color: white;
+    background-color: #FFFFFFff;
+}
+
+.walletPopupInner {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 13%;
+    left: 45%;
+    margin: -50px 0 0 -100px;
+    /* background-color: rgb(237, 235, 235); */
+    width: 35%;
+    min-height: 85vh;
+    max-height: 85vh;
+    border-top-right-radius: 20%;
+    box-shadow: 0 -5px 20px -5px black;
+    color: white;
+    background-color: #1E2024ff;;
+}
+
+.lightThemeWalletPopupInner header {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F5F6FAff;
+    color: black;
+}
+
+.walletPopupInner header {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #17181Bff;
+}
+
+.lightThemeWalletPopupInner .transactionsLink {
+    color: rgb(96, 95, 95);
+    display: flex;
+    gap: 5px;
+}
+
+.walletPopupInner .transactionsLink {
+    color: darkgrey;
+    display: flex;
+    gap: 5px;
+}
+
+.lightThemeWalletPopupInner .transactionsLink:hover {
+    /* text-decoration: underline; */
+    cursor: pointer;
+    color: black;
+}
+
+.walletPopupInner .transactionsLink:hover {
+    /* text-decoration: underline; */
+    cursor: pointer;
+    color: white;
+}
+
+.lightThemeWalletPopupInner .walletwdButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #F5F6FAff;
+    padding: 0 20px;
+    padding-bottom: 15px;
+}
+
+.walletPopupInner .walletwdButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #17181Bff;
+    padding: 0 20px;
+    padding-bottom: 15px;
+}
+ 
+.lightThemeWalletPopupInner .walletdButton {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: white;
+    min-width: 120px;
+    color: #646D75ff;
+    padding: 15px;
+    cursor: pointer;
+    border: 2px solid rgb(180, 180, 183);
+}
+
+.walletPopupInner .walletdButton {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #1E2024ff;;
+    min-width: 120px;
+    color: #646D75ff;
+    padding: 15px;
+    cursor: pointer;
+    border: 2px solid #2D3035ff;
+}
+
+.lightThemeWalletPopupInner .walletwButton {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: white;
+    min-width: 120px;
+    color: #646D75ff;
+    padding: 15px;
+    cursor: pointer;
+    border: 2px solid rgb(180, 180, 183);
+}
+
+.walletPopupInner .walletwButton {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #1E2024ff;;
+    min-width: 120px;
+    color: #646D75ff;;
+    padding: 15px;
+    cursor: pointer;
+    border: 2px solid #2D3035ff;
+}
+
+.lightThemeWalletPopupInner .walletdButton p {
+    font-weight: bold;
+}
+
+.walletdButton p {
+    margin: 0
+}
+
+.lightThemeWalletPopupInner .walletwButton p {
+    font-weight: bold;
+}
+
+.walletwButton p {
+    margin: 0
+}
+
+.transactionTypes {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.lightThemeWalletPopupInner .transactionTypes div {
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    background-color: #F5F6FAff;
+    color: black;
+    cursor: pointer;
+}
+
+.walletPopupInner .transactionTypes div {
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    background-color: #25272Cff;
+    color: #97A6B4ff;
+    cursor: pointer;
+}
+
+/* .transactionTypes div:hover {
+    color: white;
+} */
+
+.transactionMain {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    overflow-y: scroll;
+}
+
+.lightThemeWalletPopupInner .transactionCurrency {
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F6FAff;
+    justify-content: space-between;
+    padding: 10px;
+    color: black;
+    border: 2px solid #2D3035ff;
+}
+
+.transactionCurrency {
+    display: flex;
+    flex-direction: row;
+    background-color: #17181Bff;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid #2D3035ff;
+}
+
+.transactionCurrency .balance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.transactionCurrency .balance p {
+    font-size: small;
+}
+
+.transactionCurrency .balance h4 {
+    font-size: small;
+}
+
+.lightThemeWalletPopupInner .transactionCurrency .options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.transactionCurrency .options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1E2023ff;
+    cursor: pointer;
+}
+
+.transactionCurrency .options img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.lightThemeWalletPopupInner .transactionMain .hiddenOptions {
+    background-color: white;
+    color: black;
+}
+
+.transactionMain .hiddenOptions {
+    background-color: #17181Bff;
+}
+
+.transactionMain .option {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(114, 112, 112);
+}
+
+.transactionMain .option img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.lightThemeWalletPopupInner .withdrawAddressContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+    color: black
+}
+
+.withdrawAddressContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+    color:#646D75ff;
+}
+
+.lightThemeWalletPopupInner .withdrawAddressContainer input {
+    height: 30px;
+    padding: 10px;
+    font-size: 0.9rem;
+    background-color: #F5F6FAff;
+    border: 2px solid #2D3035ff;
+    color: black;
+}
+
+.withdrawAddressContainer input {
+    height: 30px;
+    padding: 10px;
+    font-size: 0.9rem;
+    background-color: #17181Bff;
+    border: 2px solid #2D3035ff;
+    color: white;
+}
+
+.lightThemeWalletPopupInner .withdrawAmountContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+    color: black
+}
+
+.withdrawAmountContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+    color: #646D75ff;
+}
+
+.lightThemeWalletPopupInner .withdrawAmountContainer input {
+    height: 30px;
+    padding: 10px;
+    font-size: 0.9rem;
+    background-color: #F5F6FAff;
+    color: black;
+    border: 2px solid #2D3035ff;
+}
+
+.withdrawAmountContainer input {
+    height: 30px;
+    padding: 10px;
+    font-size: 0.9rem;
+    background-color: #17181Bff;
+    color: white;
+    border: 2px solid #2D3035ff;
+}
+
+.procesingFee {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.transactionMain .confirmButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.transactionMain .confirmButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 140px;
+    font-size: large;
+    background-color: #3ABE17ff;
+    border: none;
+    font-weight: 800;
+    color: white;
+}
+
+.transactionMain .securityNotice {
+    margin-top: 30px;
+    color: #646D75ff;
+    font-size: small;
+}
+
+.transactionTypeSelected {
+    border: 1px solid #646D75ff;
+    background-color: #2D3136ff;
+}
+
+.lightThemeWalletPopupInner .transactionTypeSelected p {
+    color: black;
+    font-weight: bolder;
+}
+
+.transactionTypeSelected p {
+    color: white;
+}
+
+.lightThemeWalletPopupInner .transactiondwSelected {
+    border: 2px solid black;
+    color: white;
+}
+
+.transactiondwSelected {
+    border: 1px solid #646D75ff;
+    color: white;
+}
+
+.displayBlock {
+    display: block;
+}
+
+.displayNone {
+    display: none;
+}
+
+.widthdrawToContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.lightThemeWalletPopupInner .widthdrawToContainer > p {
+    color: black;
+    margin-bottom: 5px;
+}
+
+.widthdrawToContainer > p {
+    color: #646D75ff;
+    margin-bottom: 5px;
+}
+
+.withdrawToOptions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.lightThemeWalletPopupInner .withdrawToOption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F6FAff;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.withdrawToOption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #24272Cff;;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.withdrawToOption img {
+    max-width: 120px;
+}
+
+.lightThemeWalletPopupInner .withdrawToOption p {
+    color: black;
+    font-size: small;
+}
+
+.withdrawToOption p {
+    color: #646D75ff;
+    font-size: small;
+}
+
+.twofa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #2D3035ff;
+    margin-top: 40px;
+}
+
+.twofa p {
+    color: #646D75ff;
+    font-size: small;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 700px) {
+    .walletPopupInner {
+        min-width: 91%;
+        max-width: 91%;
+        left: 30%;
+        top: 20%;
+    }
+
+    .lightThemeWalletPopupInner {
+        min-width: 91%;
+        max-width: 91%;
+        left: 30%;
+        top: 20%;
+    }
+}

@@ -1,0 +1,138 @@
+
+.loginOuter {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 1;
+}
+
+.loginInnerWrapper {
+    box-shadow: 0 0 18px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    margin: -50px 0 0 -100px;
+    background-color: #FFAF40ff;
+    padding: 20px;
+    width: 30%;
+    min-height: 55vh;
+    border-top-right-radius: 20%;
+}
+
+.loginInnerWrapper > div {
+    cursor: pointer;
+}
+
+.loginInner {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 33%;
+    left: 45%;
+    margin: -50px 0 0 -100px;
+    background-color: rgb(237, 235, 235);
+    padding: 20px;
+    width: 30%;
+    min-height: 50vh;
+    border-top-right-radius: 20%;
+    box-shadow: 0 -5px 20px -5px black;
+}
+
+.loginContainerHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.loginContainerHeader > h1 {
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    margin: 0
+}
+
+.loginContainerHeader > p {
+    margin: 0
+}
+
+.loginInputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.loginInput div {
+    width: 90%;
+}
+
+.loginInput label {
+    margin-bottom: 5px;
+}
+
+.loginInput input {
+    width: 100%;
+    height: 28px;
+    border-radius: 8px;
+    border: 1px solid rgb(135, 132, 132);
+    box-shadow: 0 6px 5px -5px rgb(124, 123, 123);
+}
+
+.loginInput input:focus {
+    outline: none;
+}
+
+.loginInput input:hover {
+    cursor:text;
+}
+
+.rememberMeContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5px;
+}
+
+.loginButtonsContainer {
+    margin-top: 20px;
+}
+
+.loginButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginButton > button {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    background-color: #FFAF40ff;
+    border: 1px solid rgb(135, 132, 132);
+    border-radius: 12px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.loginButton > button:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.dropPopup {
+    display: none;
+}

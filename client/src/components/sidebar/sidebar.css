@@ -1,0 +1,111 @@
+
+.lightThemeSidebarWrapper {
+    background-color: white;
+    height: 30vh;
+    /* min-width: 20%;
+    max-width: 20%; */
+    width: 80%;
+    border-top-right-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+    margin-right: 40px;
+
+}
+
+.sidebarWrapper {
+    background-color: #1F1F1Fff;
+    height: max-content;
+    /* min-width: 20%;
+    max-width: 20%; */
+    width: 80%;
+    border-top-right-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+    margin-right: 40px;
+}
+
+.lightThemeSidebarWrapper .sidebarLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 80%;
+    min-height: 20px;
+    background-color: #F5F6FAff;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    font-style: italic;
+    padding: 5px;
+    box-shadow: 0 0 5px rgb(166, 164, 164);
+    border-top-right-radius: 20px;
+}
+
+.sidebarWrapper .sidebarLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 80%;
+    min-height: 20px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    font-style: italic;
+    padding: 5px;
+    box-shadow: 0 0 5px rgb(166, 164, 164);
+    border-top-right-radius: 20px;
+}
+
+.lightThemeSidebarWrapper .sidebarLink:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.sidebarWrapper .sidebarLink:hover {
+    cursor: pointer;
+    background-color: rgb(203, 200, 200);
+    color: black
+}
+
+.smallImage {
+    max-width: 250px;
+    height: 120px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1000px) {
+    
+    .lightThemeSidebarWrapper {
+        background-color: white;
+        height: 30vh;
+        /* min-width: 20%;
+        max-width: 20%; */
+        width: 80%;
+        border-top-right-radius: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 10px;
+        margin-right: 40px;
+    }
+
+    .sidebarWrapper {
+        background-color: #1F1F1Fff;
+        height: max-content;
+        /* min-width: 20%;
+        max-width: 20%; */
+        width: 80%;
+        border-top-right-radius: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 10px;
+        margin-right: 40px;
+    }
+}

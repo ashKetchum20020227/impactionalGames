@@ -1,0 +1,229 @@
+.sideProfileWrapper {
+    z-index: 3;
+    box-shadow: 0 0 10px black;
+}
+
+.lightThemeSideProfileOuter {
+    z-index: 3;
+    box-shadow: 0 0 18px black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: absolute;
+    top: 6%;
+    background-color: rgb(8, 132, 185);
+    padding: 20px;
+    width: 23%;
+    min-height: 100vh;
+    border-top-right-radius: 100px;
+}
+
+.sideProfileOuter {
+    z-index: 3;
+    box-shadow: 0 0 18px black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: absolute;
+    top: 6%;
+    background-color: #0F3460;
+    padding: 20px;
+    width: 23%;
+    min-height: 100vh;
+    border-top-right-radius: 100px;
+}
+
+.sideProfileOuterImageContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.sideProfileOuterViewProfile {
+    cursor: pointer;
+}
+
+.sideProfileOuterViewProfile h4 {
+    margin: 5px;
+    color: white;
+}
+
+.sideProfileOuterViewProfile:hover h4 {
+    color: #E94560;
+}
+
+.sideProfileInner {
+    z-index: 4;
+    position: absolute;
+    top: 27%;
+    background-color: #EEEEEEff;
+    min-height: 78vh;
+    max-height: fit-content;
+    box-shadow: 0 0 18px black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    padding-top: 30px;
+    width: 24.5%;
+    border-top-right-radius: 100px;
+}
+
+.sideProfileInnerLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F3F3F3ff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    height:auto;
+    padding: 10px;
+    border: 1px solid rgb(192, 187, 187);
+}
+
+.sideProfileInnerLink p {
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    padding: 3px;
+    margin: 0;
+    margin-left: 5%;
+    font-size: 1.05rem;
+}
+
+.sideProfileInnerLink:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.sideProfileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.sideProfileInfo {
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+    color: white;
+}
+
+.profileDropDown {
+    color: white;
+    border-radius: 20px;
+    display: none;
+    z-index: 1;
+    background-color: #17181Bff;
+    min-width: 30vw;
+    padding: 20px;
+    cursor: default;
+}
+
+.profileDropDown .logoutContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.profileDropDown .sideProfileImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.dropdownLink {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.profileDropDown .linksContainer {
+    margin-top: 20px;;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background-color: #1E2024ff;
+    align-items: center;
+    justify-self: center;
+    gap: 20px;
+}
+
+.profileDropDown .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileDropDown .header .userInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.profileDropDown .header .globalSettings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.sideProfileInfo:hover .profileDropDown {
+    display: block;
+    position: relative;
+    right: 30%;
+}
+
+.displayNone {
+    display: none;
+}
+
+.sideProfileCategoryDropdown {
+    display: block;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 700px) {
+    .sideProfileOuter {
+        width: 90%;
+        top: 10%
+    }
+
+    .lightThemeSideProfileOuter {
+        width: 90%;
+        top: 10%;
+    }
+
+    .sideProfileInner {
+        width: 94%;
+        margin-top:50px;
+    }  
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+
+    .sideProfileOuter {
+        width: 50%;
+        top: 10%
+    }
+
+    .lightThemeSideProfileOuter {
+        width: 50%;
+        top: 10%;
+    }
+
+    .sideProfileInner {
+        width: 52%;
+        margin-top: 50px;
+    }  
+}

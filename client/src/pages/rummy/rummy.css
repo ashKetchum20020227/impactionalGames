@@ -1,0 +1,168 @@
+
+.rummyWrapper {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+.rummyImageWrapper > img {
+    width: 100%;
+    height: 25vh;
+}
+
+.rummyMainWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rummyMainWrapper .header {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.rummyDealsButtonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header h4 {
+    margin: 0;
+}
+
+.rummyDealsButton {
+    border-radius: 10px;
+    position: relative;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #FFFAEEff, #FEF2CFff, #FDE8A6ff, #FDE088ff, #FDD561ff);
+    width: 170px;
+    height: 150px;
+}
+
+.rummyDealsButton h2 {
+    margin: 0;
+    position: absolute;
+    bottom: 10px;
+    font-style: italic;
+}
+
+.rummyDealsButton img {
+    max-width: 70px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.rummyDealsButtonLargeImage {
+    min-width: 120px;
+    margin-bottom: 10px;
+}
+
+.secondHeader h2 {
+    color: white;
+}
+
+.thirdHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.thirdHeader div {
+    background-color: #FEFDCEff;
+    height: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: bolder;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.rummyOpenGamesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.rummyOpenGame {
+    width: 80%;
+    background: linear-gradient(to bottom, #FDF992ff, #F8F49Cff, #F4F0A5ff);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    padding-bottom: 0;
+}
+
+.rummyOpenGame .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rummyOpenGame .buttonsContainer div {
+    width: 100px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rummyOpenGame .buttonsContainer .numberOfDealsButton {
+    background-color: #F3C948ff;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.rummyOpenGame .buttonsContainer .priceButton {
+    color: white;
+    background-color: #17C433ff;
+    font-weight: 900;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rummyOpenGame .textContainer div:first-child {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.rummyOpenGame .textContainer div:last-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rummyOpenGame .textContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 900;
+}
+

@@ -1,0 +1,458 @@
+
+img {
+    z-index: 0;
+}
+
+.lightThemeHomeWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(219, 220, 224);
+    align-items: center;
+    justify-content: center;
+}
+
+.homeWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 1;
+    background-color: #302F2Fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeMain {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeGamesContainer1 {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.homeGamesContainer1 img {
+    margin: 10px 10px;
+}
+
+.bigImage {
+    max-width: 500px;
+    height: 120px;
+}
+
+.mediumImage {
+    max-width: 350px;
+    height: 120px;
+}
+
+.smallImage {
+    max-width: 250px;
+    height: 120px;
+}
+
+.lightThemeHomeWrapper .hotGamesContainer {
+    margin: 10px 10px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.homeWrapper .hotGamesContainer {
+    margin: 10px 10px;
+    background-color: #1F1F1Fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    /* background-image: url("https://cdn.creatureandcoagency.com/uploads/2020/10/Facts-about-Chrismtas-5.jpg"); */
+}
+
+.hotGame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lightThemeHomeWrapper .hotGame:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.hotGame:hover {
+    box-shadow: 0 0 10px white;
+}
+
+.hotGame img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.lightThemeHomeWrapper .hotGame p {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.hotGame p {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.homeGamesContainer2 {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.bigSquareImage {
+    width: 400px;
+}
+
+.lightThemeHomeWrapper .bigSquareImage:hover {
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    box-shadow: 0 0 10px black;
+}
+
+.bigSquareImage:hover {
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    box-shadow: 0 0 10px white;
+}
+
+.squareImage {
+    width: 250px;
+    max-height: 150px;
+}
+
+.lightThemeHomeWrapper .squareImage:hover {
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    box-shadow: 0 0 10px black;
+}
+
+.squareImage:hover {
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    box-shadow: 0 0 10px white;
+}
+
+/* .lightThemeHomeWrapper footer {
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+} */
+
+/* .homeWrapper footer {
+    display: flex;
+    background-color: #1F1F1Fff;
+    padding: 30px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+} */
+
+/* .lightThemeHomeWrapper footer .feedback {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    width: 100%;
+}
+
+.homeWrapper footer .feedback {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    width: 100%;
+} */
+
+/* .lightThemeHomeWrapper footer .feedback h2 {
+    color: black;
+}
+
+.homeWrapper footer .feedback h2 {
+    color: white;
+} */
+
+/* .homeWrapper footer .feedback p { */
+    /* color: #95A4B2ff;
+    line-height: 1.5;
+}
+
+.lightThemeHomeWrapper footer .feedback .feedbackInput {
+    height: 150px;
+    width: 85%;
+    background-color: #F5F6FAff;
+    color: black;
+    justify-content: flex-start;
+    display: flex;
+    border: none;
+    padding: 10px;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    border: 2px solid black;
+    border-radius: 10px;
+} */
+
+/* .homeWrapper footer .feedback .feedbackInput {
+    height: 150px;
+    width: 85%;
+    background-color: #24262Bff;
+    color: #95A4B2ff;
+    justify-content: flex-start;
+    display: flex;
+    border: none;
+    padding: 10px;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    border: 2px solid #95A4B2ff;
+    border-radius: 10px;
+} */
+
+/* .lightThemeHomeWrapper footer .feedback .feedbackInput:focus {
+    outline: none;
+    border: 2px solid #FFAF40ff
+} */
+
+/* .homeWrapper footer .feedback .feedbackInput:focus {
+    outline: none;
+    border: 2px solid #FFAF40ff
+}
+
+.lightThemeHomeWrapper footer .feedback .feedbackSubmitButton {
+    height: 40px;
+    width: 150px;;
+    margin-right: 10px;
+    background-color: #FFAF40ff;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+} */
+
+/* .homeWrapper footer .feedback .feedbackSubmitButton {
+    height: 40px;
+    width: 150px;;
+    margin-right: 10px;
+    background-color: #FFAF40ff;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.lightThemeHomeWrapper footer .feedback .feedbackSubmitButton:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px #FFAF40ff;
+} */
+
+/* .homeWrapper footer .feedback .feedbackSubmitButton:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px #FFAF40ff;
+} */
+
+.otherGamesContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 700px) {
+    .homeWrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeGamesContainer2 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bigSquareImage {
+        width: 80%;
+    }
+    
+    .squareImage {
+        width: 80%;
+    }
+
+    .hotGame p {
+        font-size: 0.9rem;
+    }
+
+    /* .homeGamesContainer1 div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .hotGamesContainer {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .hotGamesContainer div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bigImage {
+        max-width: 90%;
+    }
+
+    .hotGame img {
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+    }
+
+    .smallImage {
+        min-width: 80%;
+        max-width: 80%;
+    }
+
+    .mediumImage {
+        width: 80%;
+    }
+
+    /* .homeGamesContainer2 {
+        margin-left: 20%;
+    } */
+
+    .homeWrapper footer .feedback {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .lightThemeHomeWrapper footer .feedback {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .lightThemeHomeWrapper  .hotGamesContainer {
+        width: 85%;
+    }
+
+    .homeWrapper .hotGamesContainer {
+        width: 85%;
+    }
+
+    .otherGamesContainer {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+    .homeWrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeGamesContainer2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bigSquareImage {
+        width: 60%;
+    }
+    
+    .squareImage {
+        width: 200px;
+        max-height: 120px;
+    }
+
+    /* .homeGamesContainer1 div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .hotGamesContainer {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .hotGamesContainer div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bigImage {
+        max-width: 50%;
+    }
+
+    .hotGame img {
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+    }
+
+    .smallImage {
+        min-width: 40%;
+        max-width: 40%;
+    }
+
+    .mediumImage {
+        width: 50%;
+    }
+
+    .homeWrapper footer .feedback {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .lightThemeHomeWrapper footer .feedback {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .otherGamesContainer {
+        flex-wrap: nowrap;
+    }
+}

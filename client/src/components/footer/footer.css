@@ -1,0 +1,156 @@
+
+#christmasThemeFooter {
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-image: url("https://thumbs.dreamstime.com/z/icicles-wire-snow-blue-background-heavy-ice-cord-vector-illustration-icicle-set-frozen-cartoon-melted-82491467.jpg");
+}
+
+.lightThemeFooter {
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F1F1Fff;
+    padding: 30px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    /* lol */
+    /* background-color: #22a4f5; */
+    /* background-image: url("https://thumbs.dreamstime.com/z/icicles-wire-snow-blue-background-heavy-ice-cord-vector-illustration-icicle-set-frozen-cartoon-melted-82491467.jpg"); */
+    /* background-size: 30px;
+    background-repeat: no-repeat; */
+}
+
+.lightThemeFooter .feedback {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    width: 100%;
+}
+
+.footer .feedback {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    width: 100%;
+}
+
+.lightThemeFooter .feedback h2 {
+    color: black;
+}
+
+.footer .feedback h2 {
+    color: white;
+     /* lol */
+     /* color: black */
+}
+
+.footer .feedback p {
+    color: #95A4B2ff;
+    line-height: 1.5;
+    /* lol */
+    color: white;
+    font-weight: bolder;
+}
+
+.lightThemeFooter .feedback .feedbackInput {
+    height: 150px;
+    width: 85%;
+    background-color: #F5F6FAff;
+    color: black;
+    justify-content: flex-start;
+    display: flex;
+    border: none;
+    padding: 10px;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.footer .feedback .feedbackInput {
+    height: 150px;
+    width: 85%;
+    background-color: #24262Bff;
+    color: #95A4B2ff;
+    justify-content: flex-start;
+    display: flex;
+    border: none;
+    padding: 10px;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    border: 2px solid #95A4B2ff;
+    border-radius: 10px;
+}
+
+.lightThemeFooter .feedback .feedbackInput:focus {
+    outline: none;
+    border: 2px solid #FFAF40ff
+}
+
+.footer .feedback .feedbackInput:focus {
+    outline: none;
+    border: 2px solid #FFAF40ff
+}
+
+.lightThemeFooter .feedback .feedbackSubmitButton {
+    height: 40px;
+    width: 150px;;
+    margin-right: 10px;
+    background-color: #FFAF40ff;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.footer .feedback .feedbackSubmitButton {
+    height: 40px;
+    width: 150px;;
+    margin-right: 10px;
+    background-color: #FFAF40ff;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.lightThemeFooter .feedback .feedbackSubmitButton:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px #FFAF40ff;
+}
+
+.footer .feedback .feedbackSubmitButton:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px #FFAF40ff;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+    .footer .feedback {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .lightThemeFooter .feedback {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
