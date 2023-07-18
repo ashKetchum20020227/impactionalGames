@@ -4,6 +4,8 @@ This project was created as a prototype client website during my time as an Assi
 where users can play games with an entry fee and winner's cut. I was tasked with Unity game integration and the entire frontend and backend of the client and admin prototypes
 completely individually.
 
+The website is fully responsive. I have attached some pictures at the end showing its responsiveness.
+
 ## A screenshot of all the Collections in MongoDB for this website and admin panel(Another repository named Impactional Games Admin) combined
 
 <img width="1728" alt="Screenshot 2023-07-18 at 7 45 36 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/aeb4827f-a3e3-4e1e-9c1b-e97186f03911">
@@ -74,7 +76,26 @@ completely individually.
     <img width="1728" alt="Screenshot 2023-07-18 at 8 10 57 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/81325b0a-6a0c-44b9-b9d8-9bc1c759a121">
 
 
-## Mscellaneous pictures
+## Responsiveness
+
+<img width="1728" alt="Screenshot 2023-07-18 at 8 15 06 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/a7c50d8b-18b8-4598-94f1-c541d763761f">
+
+<img width="1728" alt="Screenshot 2023-07-18 at 8 15 19 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/a71bff8b-9b33-4acc-9630-a13786c9ff7c">
+
+<img width="1728" alt="Screenshot 2023-07-18 at 8 16 22 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/2ed5694f-eee9-4def-82ab-00f63e169b3a">
+
+<img width="1728" alt="Screenshot 2023-07-18 at 8 16 29 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/698aa009-7d61-4e5e-a011-43b500e97165">
+
+<img width="1728" alt="Screenshot 2023-07-18 at 8 15 28 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/637c2800-3b09-4687-81ad-681e75969e48">
+
+<img width="1728" alt="Screenshot 2023-07-18 at 8 15 33 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/22158ccd-9669-45d1-9b10-6619aa16ce10">
+
+<img width="1728" alt="Screenshot 2023-07-18 at 8 16 10 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/ef50d63c-cf61-4e4e-a5a9-21ed6e730798">
+
+<img width="1728" alt="Screenshot 2023-07-18 at 8 15 56 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/366152c3-5e77-4fc9-ae4c-a0b3b8ed641f">
+
+
+## Miscellaneous pictures
 
 <img width="1183" alt="Screenshot 2023-07-18 at 7 50 29 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/46d5bf06-a07a-461d-8835-a1d0213d12c8">
 
