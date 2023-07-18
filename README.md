@@ -19,7 +19,7 @@ The website is fully responsive. I have attached some pictures at the end showin
 
   <img width="1728" alt="Screenshot 2023-07-18 at 7 45 00 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/7c2964bf-1de8-4818-b137-b29c12a4997d">
 
-  ![Uploading Screenshot 2023-07-18 at 7.45.19 AM.png…]()
+  <img width="1728" alt="Screenshot 2023-07-18 at 7 45 19 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/e50e13c3-a23f-4ce6-a683-e9fa305953c7">
 
 
 2) User profile.
