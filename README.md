@@ -18,7 +18,9 @@ The website is fully responsive. I have attached some pictures at the end showin
   A user can register and login wiht his credentials to play and bet on games.
 
   <img width="1728" alt="Screenshot 2023-07-18 at 7 45 00 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/7c2964bf-1de8-4818-b137-b29c12a4997d">
-  ![Screenshot 2023-07-18 at 7 45 19 AM](https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/188e5866-3de0-44c2-88d5-3ee0fda1c225)
+
+  ![Uploading Screenshot 2023-07-18 at 7.45.19 AM.png…]()
+
 
 2) User profile.
 3) Like a user's profile.
@@ -52,7 +54,7 @@ The website is fully responsive. I have attached some pictures at the end showin
   The wallet popup shows the user's current balance in Impactional Coins and also converted to various crypto-currencies. He can add and take out a sum of money. This
   feature was developed by the Blockchain interns. 
 
- ![Screenshot 2023-07-18 at 7 52 01 AM](https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/07f2a52d-6b1b-43ad-8725-214a4c8a4d97)
+ 
 
 <img width="1728" alt="Screenshot 2023-07-18 at 7 54 49 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/5b6251ed-8674-4841-a59d-4a899f58454f">
 
@@ -62,15 +64,16 @@ The website is fully responsive. I have attached some pictures at the end showin
   The website can trigger dark or light mode based on the user's preference. All the elements will change based on the selected theme.
 
   <img width="1728" alt="Screenshot 2023-07-18 at 7 54 49 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/9caa9e85-8e4f-46c2-b1b5-aa1323f3ed9f">
+  
+<img width="1728" alt="Screenshot 2023-07-18 at 7 52 35 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/a13a8f3c-3d6b-4fd3-9392-db310254dc90">
 
 
 11) Global Settings
 
   In this page a user can change his email, coinfigure his personal settings of the website like Language, etc.
 
-  ![Screenshot 2023-07-18 at 8 01 12 AM](https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/209b7a27-d343-46e7-b620-87078eff8ab5)
+  <img width="1728" alt="Screenshot 2023-07-18 at 8 01 12 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/60b4a51f-cb9b-48c0-b1a9-59e71d4d72cb">
 
-  
 
 12) Website Theme.
 
@@ -78,7 +81,6 @@ The website is fully responsive. I have attached some pictures at the end showin
     below is a Christmas theme.
 
     <img width="1728" alt="Screenshot 2023-07-18 at 8 10 57 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/81325b0a-6a0c-44b9-b9d8-9bc1c759a121">
-
 
 # Responsiveness
 
@@ -105,7 +107,7 @@ The website is fully responsive. I have attached some pictures at the end showin
 
 <img width="1183" alt="Screenshot 2023-07-18 at 7 50 29 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/10eb2def-14fc-466e-a35c-ace6710c97c9">
 
-![Screenshot 2023-07-18 at 7 50 33 AM](https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/6a1215eb-7ef0-42bb-9fc4-5e912e14085e)
+<img width="1728" alt="Screenshot 2023-07-18 at 7 50 33 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/39564947-2eda-478c-aa7b-71911f6a3147">
 
 
 
