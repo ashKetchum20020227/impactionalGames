@@ -10,7 +10,6 @@ The website is fully responsive. I have attached some pictures at the end showin
 
 <img width="1728" alt="Screenshot 2023-07-18 at 7 45 36 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/aeb4827f-a3e3-4e1e-9c1b-e97186f03911">
 
-
 ## Functionality
 
 1) User Registration and Login.
