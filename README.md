@@ -1,4 +1,4 @@
-<img width="1728" alt="Screenshot 2023-07-18 at 7 51 44 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/c2048ea0-b09a-4b00-8808-436dad53c33b"># ImpactionalGames Client
+# ImpactionalGames Client
 
 This project was created as a prototype client website during my time as an Assistant Backend Developer Intern at Impactional Games. This is primarily a game-betting website
 where users can play games with an entry fee and winner's cut. I was tasked with Unity game integration and the entire frontend and backend of the client and admin prototypes
@@ -44,6 +44,8 @@ The website is fully responsive. I have attached some pictures at the end showin
 <img width="1728" alt="Screenshot 2023-07-18 at 7 51 35 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/e8b467d7-bedc-46c2-9a7e-e424f88601b1">
 
 <img width="1728" alt="Screenshot 2023-07-18 at 7 51 44 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/6434017f-8ab3-4227-89f1-859b7fd434b1">
+
+<img width="1728" alt="Screenshot 2023-07-18 at 7 51 44 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/c2048ea0-b09a-4b00-8808-436dad53c33b">
 
 9) Wallet.
 
