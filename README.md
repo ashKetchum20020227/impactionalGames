@@ -11,9 +11,9 @@ The website is fully responsive. I have attached some pictures at the end showin
 <img width="1728" alt="Screenshot 2023-07-18 at 7 45 36 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/d51103fc-8c06-4682-ab11-e4ac665c90e1">
 
 
-## Functionality
+# Functionality
 
-1) User Registration and Login.
+## 1) User Registration and Login.
 
   A user can register and login wiht his credentials to play and bet on games.
 
@@ -22,8 +22,8 @@ The website is fully responsive. I have attached some pictures at the end showin
   <img width="1728" alt="Screenshot 2023-07-18 at 7 45 19 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/e50e13c3-a23f-4ce6-a683-e9fa305953c7">
 
 
-2) User profile.
-3) Like a user's profile.
+## 2) User profile.
+## 3) Like a user's profile.
 
   The user profile shows his avatar and name both which can be edited. It also the number of likes he/she received on his profile. Also, his history of games played and also
   the games that he liked are visible here.
@@ -32,11 +32,11 @@ The website is fully responsive. I have attached some pictures at the end showin
 
   <img width="1728" alt="Screenshot 2023-07-18 at 7 52 35 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/56e53cc0-5a0b-4576-87e2-f82794143dd2">
   
-4) Game page.
-5) Like a game.
-6) Comments on a game.
-7) Like, dislike a comment.
-8) Comment on a comment.
+## 4) Game page.
+## 5) Like a game.
+## 6) Comments on a game.
+## 7) Like, dislike a comment.
+## 8) Comment on a comment.
 
   The selected game is displayed in an iframe where the user can interact and play games live. The user can do all the actions as listed above on this page. Full screen
   option also available.
@@ -49,7 +49,7 @@ The website is fully responsive. I have attached some pictures at the end showin
 
 <img width="1728" alt="Screenshot 2023-07-18 at 7 51 44 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/c2048ea0-b09a-4b00-8808-436dad53c33b">
 
-9) Wallet.
+## 9) Wallet.
 
   The wallet popup shows the user's current balance in Impactional Coins and also converted to various crypto-currencies. He can add and take out a sum of money. This
   feature was developed by the Blockchain interns. 
@@ -59,7 +59,7 @@ The website is fully responsive. I have attached some pictures at the end showin
 <img width="1728" alt="Screenshot 2023-07-18 at 7 54 49 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/5b6251ed-8674-4841-a59d-4a899f58454f">
 
 
-10) Dark Mode/Light Mode Toggle.
+## 10) Dark Mode/Light Mode Toggle.
 
   The website can trigger dark or light mode based on the user's preference. All the elements will change based on the selected theme.
 
@@ -68,14 +68,14 @@ The website is fully responsive. I have attached some pictures at the end showin
 <img width="1728" alt="Screenshot 2023-07-18 at 7 52 35 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/a13a8f3c-3d6b-4fd3-9392-db310254dc90">
 
 
-11) Global Settings
+## 11) Global Settings
 
   In this page a user can change his email, coinfigure his personal settings of the website like Language, etc.
 
   <img width="1728" alt="Screenshot 2023-07-18 at 8 01 12 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/60b4a51f-cb9b-48c0-b1a9-59e71d4d72cb">
 
 
-12) Website Theme.
+## 12) Website Theme.
 
     Apart from the dark and light theme, the admin can change the theme of the website in the admin panel which will be reflected in the client website. For a glimpse,
     below is a Christmas theme.
