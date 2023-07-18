@@ -1,4 +1,4 @@
-# ImpactionalGames Client
+<img width="1728" alt="Screenshot 2023-07-18 at 7 51 44 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/c2048ea0-b09a-4b00-8808-436dad53c33b"># ImpactionalGames Client
 
 This project was created as a prototype client website during my time as an Assistant Backend Developer Intern at Impactional Games. This is primarily a game-betting website
 where users can play games with an entry fee and winner's cut. I was tasked with Unity game integration and the entire frontend and backend of the client and admin prototypes
@@ -6,9 +6,10 @@ completely individually.
 
 The website is fully responsive. I have attached some pictures at the end showing its responsiveness.
 
-## A screenshot of all the Collections in MongoDB for this website and admin panel(Another repository named Impactional Games Admin) combined
+## A screenshot of all the Collections in MongoDB Atlas for this website and admin panel(Another repository named Impactional Games Admin) combined
 
-<img width="1728" alt="Screenshot 2023-07-18 at 7 45 36 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/aeb4827f-a3e3-4e1e-9c1b-e97186f03911">
+<img width="1728" alt="Screenshot 2023-07-18 at 7 45 36 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/d51103fc-8c06-4682-ab11-e4ac665c90e1">
+
 
 ## Functionality
 
@@ -16,20 +17,19 @@ The website is fully responsive. I have attached some pictures at the end showin
 
   A user can register and login wiht his credentials to play and bet on games.
 
-  <img width="1728" alt="Screenshot 2023-07-18 at 7 45 00 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/4a42a70d-7f96-4a41-a1f2-78a2748571dd">
-
-  <img width="1728" alt="Screenshot 2023-07-18 at 7 45 19 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/17b41595-2527-4481-a067-543ebb72ac0f">
+  <img width="1728" alt="Screenshot 2023-07-18 at 7 45 00 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/7c2964bf-1de8-4818-b137-b29c12a4997d">
+  ![Screenshot 2023-07-18 at 7 45 19 AM](https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/188e5866-3de0-44c2-88d5-3ee0fda1c225)
 
 2) User profile.
 3) Like a user's profile.
 
   The user profile shows his avatar and name both which can be edited. It also the number of likes he/she received on his profile. Also, his history of games played and also
   the games that he liked are visible here.
-
-  <img width="1728" alt="Screenshot 2023-07-18 at 7 52 29 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/8e86c429-091c-47ce-8143-cf0556410e9f">
   
-  ![Screenshot 2023-07-18 at 7 52 35 AM](https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/7557b31d-918a-47a8-8f69-10deef1f5882)
+<img width="1728" alt="Screenshot 2023-07-18 at 7 52 29 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/5500678c-605c-49b1-a22c-2f1e696b32a0">
 
+  <img width="1728" alt="Screenshot 2023-07-18 at 7 52 35 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/56e53cc0-5a0b-4576-87e2-f82794143dd2">
+  
 4) Game page.
 5) Like a game.
 6) Comments on a game.
@@ -39,33 +39,36 @@ The website is fully responsive. I have attached some pictures at the end showin
   The selected game is displayed in an iframe where the user can interact and play games live. The user can do all the actions as listed above on this page. Full screen
   option also available.
 
-  <img width="1728" alt="Screenshot 2023-07-18 at 7 51 19 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/f09d4c89-ba1c-436a-91ce-43fe4911661b">
-  <img width="1728" alt="Screenshot 2023-07-18 at 7 51 35 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/0dac7c29-7582-4f76-a439-63238ccb4d93">
-  <img width="1728" alt="Screenshot 2023-07-18 at 7 51 44 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/7c6f518c-7744-42bf-880b-2918993499ce">
+  <img width="1728" alt="Screenshot 2023-07-18 at 7 51 19 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/11fd6975-4308-4cb9-8e86-b994e67d9069">
+
+<img width="1728" alt="Screenshot 2023-07-18 at 7 51 35 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/e8b467d7-bedc-46c2-9a7e-e424f88601b1">
+
+<img width="1728" alt="Screenshot 2023-07-18 at 7 51 44 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/6434017f-8ab3-4227-89f1-859b7fd434b1">
 
 9) Wallet.
 
   The wallet popup shows the user's current balance in Impactional Coins and also converted to various crypto-currencies. He can add and take out a sum of money. This
   feature was developed by the Blockchain interns. 
 
-  <img width="1728" alt="Screenshot 2023-07-18 at 7 52 01 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/46f2a528-b0d4-4f80-acf0-12befeb7d5dc">
+ ![Screenshot 2023-07-18 at 7 52 01 AM](https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/07f2a52d-6b1b-43ad-8725-214a4c8a4d97)
 
-  <img width="1728" alt="Screenshot 2023-07-18 at 7 54 49 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/b3bfab16-9da9-4ce0-b1f0-3474059670a0">
+<img width="1728" alt="Screenshot 2023-07-18 at 7 54 49 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/5b6251ed-8674-4841-a59d-4a899f58454f">
+
 
 10) Dark Mode/Light Mode Toggle.
 
   The website can trigger dark or light mode based on the user's preference. All the elements will change based on the selected theme.
 
-  <img width="1728" alt="Screenshot 2023-07-18 at 7 54 49 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/f2e37929-ddbc-48a3-b64c-ebad7807fe4a">
-  <img width="1728" alt="Screenshot 2023-07-18 at 8 07 52 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/58da0582-6c5c-4991-abf7-ff18cb1727e7">
+  <img width="1728" alt="Screenshot 2023-07-18 at 7 54 49 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/9caa9e85-8e4f-46c2-b1b5-aa1323f3ed9f">
 
 
 11) Global Settings
 
   In this page a user can change his email, coinfigure his personal settings of the website like Language, etc.
+
+  ![Screenshot 2023-07-18 at 8 01 12 AM](https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/209b7a27-d343-46e7-b620-87078eff8ab5)
+
   
-  <img width="1728" alt="Screenshot 2023-07-18 at 8 09 59 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/f3b0e659-1e61-44fd-8532-26d3b7e1472f">
-  <img width="1728" alt="Screenshot 2023-07-18 at 8 07 52 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/58da0582-6c5c-4991-abf7-ff18cb1727e7">
 
 12) Website Theme.
 
@@ -75,32 +78,32 @@ The website is fully responsive. I have attached some pictures at the end showin
     <img width="1728" alt="Screenshot 2023-07-18 at 8 10 57 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/81325b0a-6a0c-44b9-b9d8-9bc1c759a121">
 
 
-## Responsiveness
+# Responsiveness
 
-<img width="1728" alt="Screenshot 2023-07-18 at 8 15 06 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/a7c50d8b-18b8-4598-94f1-c541d763761f">
 
-<img width="1728" alt="Screenshot 2023-07-18 at 8 15 19 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/a71bff8b-9b33-4acc-9630-a13786c9ff7c">
+<img width="1728" alt="Screenshot 2023-07-18 at 8 16 29 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/a6a49b8a-674b-4408-8e58-5c0d79e5a933">
 
-<img width="1728" alt="Screenshot 2023-07-18 at 8 16 22 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/2ed5694f-eee9-4def-82ab-00f63e169b3a">
+<img width="1728" alt="Screenshot 2023-07-18 at 8 16 22 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/341a1fe1-cdf6-46b4-92e2-b5b1cfba3cbd">
 
-<img width="1728" alt="Screenshot 2023-07-18 at 8 16 29 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/698aa009-7d61-4e5e-a011-43b500e97165">
+<img width="1728" alt="Screenshot 2023-07-18 at 8 16 10 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/5f8ad373-4412-4eb2-8987-75289ee6e115">
 
-<img width="1728" alt="Screenshot 2023-07-18 at 8 15 28 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/637c2800-3b09-4687-81ad-681e75969e48">
+<img width="1728" alt="Screenshot 2023-07-18 at 8 15 56 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/fd08ae22-9db2-4626-a6dc-454de23c6547">
 
-<img width="1728" alt="Screenshot 2023-07-18 at 8 15 33 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/22158ccd-9669-45d1-9b10-6619aa16ce10">
+<img width="1728" alt="Screenshot 2023-07-18 at 8 15 33 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/c0c9f493-49b8-4eee-b032-0fde062d23a4">
 
-<img width="1728" alt="Screenshot 2023-07-18 at 8 16 10 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/ef50d63c-cf61-4e4e-a5a9-21ed6e730798">
+<img width="1728" alt="Screenshot 2023-07-18 at 8 15 28 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/61a580c2-75c7-411c-abe6-419c51c0d1b9">
 
-<img width="1728" alt="Screenshot 2023-07-18 at 8 15 56 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/366152c3-5e77-4fc9-ae4c-a0b3b8ed641f">
+<img width="1728" alt="Screenshot 2023-07-18 at 8 15 19 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/131bdad8-c0c0-4f48-ad40-7f5c14015e62">
 
+<img width="1728" alt="Screenshot 2023-07-18 at 8 15 06 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/bc287864-807b-4aef-9ba6-a08d4b0eb14d">
 
 ## Miscellaneous pictures
 
-<img width="1183" alt="Screenshot 2023-07-18 at 7 50 29 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/46d5bf06-a07a-461d-8835-a1d0213d12c8">
+<img width="1728" alt="Screenshot 2023-07-18 at 7 57 51 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/543a6e29-00d3-4804-96ae-26eb295d9306">
 
-![Screenshot 2023-07-18 at 7 50 33 AM](https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/4cd96c34-4839-4e5d-b10a-8957060db538)
+<img width="1183" alt="Screenshot 2023-07-18 at 7 50 29 AM" src="https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/10eb2def-14fc-466e-a35c-ace6710c97c9">
 
-![Screenshot 2023-07-18 at 7 57 51 AM](https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/b6545d97-aa7b-4c4e-b723-cb26a2cd63cc)
+![Screenshot 2023-07-18 at 7 50 33 AM](https://github.com/ashKetchum20020227/impactionalGames/assets/135194797/6a1215eb-7ef0-42bb-9fc4-5e912e14085e)
 
 
 
